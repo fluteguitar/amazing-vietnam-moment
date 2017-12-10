@@ -1,10 +1,11 @@
 <head>    
     <link rel="stylesheet" href="style.css">
     <script src="vue.js"></script>
+    <script src="utils.js"></script>
+    <script src="constant.js"></script>        
 </head>
 <body>
-    <section id="background">
-	<img v-bind:src="imgSrc">
+    <section class="background" v-bind:style="styleObject">
     </section>
     <section class="todoapp">
 	<button v-on:click="visible = !visible">todos</button>
