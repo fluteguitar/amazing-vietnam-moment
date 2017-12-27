@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Amazing Vietnam Moment",
+    "description": "This extension replace default new tab of your browsers (Google Chrome and Firefox) with a random photo capturing breathtaking moment at Vietnam",
+    "version": "1.0",
+    "chrome_url_overrides" : {
+	"newtab": "index.html"
+    },
+    "permissions": [
+	"storage"
+    ],
+    "background": {
+	"scripts": ["./source-code/js/app/main.js"]	
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://connect.facebook.net; object-src 'self'"    
+}

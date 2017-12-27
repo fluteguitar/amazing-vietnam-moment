@@ -1,0 +1,10 @@
+NO_IMAGE = 32;
+imagePath = 'media/images/'
+listExlImages = [2, 4, 6];
+listImage = [];
+for(let i = 1; i <= NO_IMAGE; i++)
+    if ( !listExlImages.includes(i) )
+	listImage.push(i);
+DEFAULT_LANG = "en";
+DEFAULT_CAPTION_TEXT_EN = "Unknown source";
+DEFAULT_CAPTION_TEXT_VI = "Không rõ nguồn"

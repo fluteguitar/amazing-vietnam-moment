@@ -1,0 +1,116 @@
+[v-cloak] { display: none; }
+
+body {
+    background-color: #222;
+    font-family: georgia;
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+    font-weight: 400;     
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    outline: none;    
+}
+button {    
+   font-family: georgia;
+   color: rgba(255,255,255,0.7);
+   background-color: transparent;
+   font-size: 18px;
+   font-weight: 500;
+   outline: none;    
+}
+
+.header input {
+    font-family: georgia;
+    color: rgba(255,255,255,0.7);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    outline: none;
+}
+
+.filters li {
+    display: inline;
+}
+
+.background {
+    background-repeat: round;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.todoapp button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+    border: none;
+}
+.todo-panel {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    padding: 15px;
+    width: 350px;
+    min-height: 50px;
+    max-height: 350px;
+    border: none;
+    background-color: rgba(35, 35, 35, 0.6);
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 6px;
+    transition: transform 0.32s, height 0.32s;
+    padding-top: 5px;
+    transform: translateY(0px);    
+}
+
+input {
+    border: none;
+}
+.todo-list li {
+    position: relative;
+    font-size: 24px;
+    border-bottom: 1px solid #ededed;
+}
+
+.todo-list li .destroy {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    font-size: 30px;
+    color: #cc9a9a;
+    margin-bottom: 11px;
+    transition: color 0.2s ease-out;
+}
+
+.todo-list li .edit {
+    display: none;
+}
+
+.todo-list li .destroy:after {
+    content: 'x';
+}
