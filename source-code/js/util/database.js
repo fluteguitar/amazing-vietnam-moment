@@ -1,8 +1,16 @@
 database = {
     "en": {
+	'1': {
+	    "caption": "The Ban Gioc waterfall",
+	    "source": "https://wall.alphacoders.com/big.php?i=716582"
+	},
+	'3': {
+	    "caption": "Hoa Dang festival, Fragrance River",
+	},	
 	'5': {
-	    "caption": "Ma Pi Leng pass, Ha Giang",
-	    "author": "zoltán kovács"
+	    "caption": "Ha Long Bay",
+	    "source": "https://www.lonelyplanet.com/news/2017/12/18/pinterest-travel-trends-2017/",
+	    "author": "Matt Munro/Lonely Planet"
 	},
 	'7': {
 	    "caption": "Da Lat by night",
@@ -11,8 +19,7 @@ database = {
 	},
 	'8': {
 	    "caption": "The Ban Gioc waterfall",
-	    "author": "Cuma Cevik Photography",
-	    "authorContact": "https://www.facebook.com/cumacevikphotography/"
+	    "source": "https://wall.alphacoders.com/big.php?i=567571"
 	},
 	'9': {
 	    "caption": "Pink grass hill in Gia Lai, Vietnam",
@@ -153,6 +160,50 @@ database = {
 	    "source": "bestprice.vn",
 	    "url": "https://www.bestpricevn.com/travelguide/Article_Beautiful-Harvesting-Season-In-Vietnam-5-Best-Places-To-See-Golden-Rice-Fields-377.html",
 	    "longCaption": "The crop season lasts from September to October. In those days, the landscape treats you with marvelous beauty of yellow paddy fields, spreading all over the place."
-	}	
+	},
+	"35": {
+	    "caption": "Ethnic girl at Ma Pi Leng pass",
+	    "source": "unknown",
+	    "author": "Pham an"
+	},
+	"36": {
+	    "caption": "In the Spring -DNS",
+	    "longCaption": "Inspired by Impressionism, this is a happy frame by Duong Ngoc Son with bright colors, characteristic of spring time in Vietnam. This is a good example of contemporary landscape paintings by an Asian artist. Daily life continuing amidst the vivid bright colors of the blooming trees and the interplay of light and shade has been captured beautifully by the artist.",
+	    "source": "http://www.vietnamartist.com/product/in-the-spring-dns/",
+	    "author": "Duong Ngoc Son"
+	},
+	"37": {
+	    "caption": "Rice Paddy Terraces"
+	},
+	"38": {
+	    "caption": "Ma Pi Leng pass",
+	    "longCaption": "Ma Pi Leng, in Hmong languague means “Horse nose bridge”. Some other literature sources argue it actually is Mau Pi Leng, describing the feeling of a mouse when it is going to fall into the clutches of the cat. Both explanations mean nothing else than the dangerous, breath-taking feeling of the traveller when passing by this pass.",
+	    "source": "http://vietnamholiday.com/news/ma-pi-leng-pass.htm"
+	},
+	"39": {
+	    "caption": "Ma Pi Leng pass",
+	    "longCaption": "Ma Pi Leng, in Hmong languague means “Horse nose bridge”. Some other literature sources argue it actually is Mau Pi Leng, describing the feeling of a mouse when it is going to fall into the clutches of the cat. Both explanations mean nothing else than the dangerous, breath-taking feeling of the traveller when passing by this pass.",
+	    "source": "http://vietnamholiday.com/news/ma-pi-leng-pass.htm"
+	},
+	"40": {
+	    "caption": "Ethnic woman amidst rice field"
+	},
+	"41": {
+	    "caption": "Tra su forest",
+	    "source": "http://blog.evivatour.com/top-5-forests-mekong-delta-vietnam/",
+	    "longCaption": "Tra Su Forest is an evergreen ecosystem of cajuput trees lining in dusty paths and a flooded mangrove forest. The forest of 850 hectares is a natural paradise which homes 140 types of flora, 70 species of birds, 11 types of animals, 25 species of reptiles, and 23 kinds of fish. After getting on a rustic narrow boat, you will begin your journey into the world of an endless green."
+	},
+	"42": {
+	    "caption": "Hoa Dang festival, Hoi An",
+	    "source": "http://www.dulichthekymoi.vn/tour-da-nang-hoi-an-quang-tri-hue-quang-binh"
+	},
+	"43": {
+	    "caption": "Den Long, Quang Nam",
+	    "source": "http://www.dulichthekymoi.vn/tour-da-nang-hoi-an-quang-tri-hue-quang-binh"
+	},
+	"44": {
+	    "caption": "Hoa Dang festival, Fragrance River",
+	    "longCaption": "<p> Who turns to Hue <br> Who comes back to Ngu Mount<br>Who comes back to Huong River<br>The river water never sinks<br>Ngu Mount birds fly back to friends<br>Whoever are children of Hue remember to return… </p> "
+	}
     }
 }

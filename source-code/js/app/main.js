@@ -76,7 +76,6 @@ var app = new Vue({
 	    let backgroundImageUrl = 'url(' + imagePath + this.index + '.jpg)';
 	    console.log(backgroundImageUrl);
 	    return {
-		"background-color": '#ff6600',
 		"background-image": backgroundImageUrl
 	    };
 	},

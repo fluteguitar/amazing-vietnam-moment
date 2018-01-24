@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container">	
-	<section class="background" v-bind:style="styleObject"></section>
+	<section class="background fadein" v-bind:style="styleObject"></section>
 	<section class="caption" @mouseenter="isShowLongCaption = true" @mouseleave="isShowLongCaption = false">
 	  <span class="caption-text"> {{ captionData.caption }} </span>
-	  <span v-if="isShowLongCaption" class="longcaption"> {{ getLongCaption }} </span>
+	  <span v-if="isShowLongCaption" class="longcaption"> <span v-html="getLongCaption"></span> </span>
 	  <!-- <span class="long-caption"> {{ captionData.longCaption }} </span>	   -->
 	  <span class="toggle-caption" v-if="!isShowLongCaption">Read more</span>
 	</section>
@@ -56,7 +56,7 @@
 			<li><a href="#/completed" :class="{ selected: visibility == 'completed' }">Completed</a></li>
 		    </ul>
 		    <button class="clear-completed" @click="removeCompleted" v-show="todos.length > remaining">
-			Clear completed
+			Clear
 		    </button>
 		</footer>
 	    </section>
